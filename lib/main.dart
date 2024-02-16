@@ -1,21 +1,10 @@
-
 import 'package:finnoto_login/pages/dashboard_dart.dart';
-import 'package:finnoto_login/pages/login_register.dart';
-import 'package:finnoto_login/pages/user_organization.dart';
-import 'package:finnoto_login/provider/user_preference.dart';
 import 'package:finnoto_login/services/login_service.dart';
 import 'package:flutter/material.dart';
-import 'package:finnoto_login/pages/login_page.dart';
-
-import 'package:http/http.dart' as http;
-
-import 'data/models/login_credential.dart';
 
 void main() async {
 
-
-
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatefulWidget {

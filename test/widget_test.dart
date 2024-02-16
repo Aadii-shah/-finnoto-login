@@ -8,7 +8,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:finnoto_login/main.dart';
 
 //class MockAuthenticationRepository extends Mock implements AuthenticationRepository {}
 

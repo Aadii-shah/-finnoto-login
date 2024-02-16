@@ -10,7 +10,7 @@ class OrganizationList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const String imageName = 'business.png';
+    //const String imageName = 'business.png';
 
     return Padding(
       padding: const EdgeInsets.all(25),

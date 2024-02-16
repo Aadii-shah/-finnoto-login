@@ -211,8 +211,8 @@ class _MyDashBoardState extends State<MyDashBoard> {
 
   Future<void> _getUserData() async {
     // Retrieve user data from UserPreferences
-    String? userName = await UserPreferences.getUserName();
-    String? imageUrl = await UserPreferences.getImageUrl();
+    //String? userName = await UserPreferences.getUserName();
+    //String? imageUrl = await UserPreferences.getImageUrl();
     String? accessToken = await UserPreferences.getAccessToken();
 
     if (accessToken == '') {
